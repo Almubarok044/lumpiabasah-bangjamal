@@ -1,0 +1,509 @@
+<!doctype html>
+<html lang="id" class="scroll-smooth">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- SEO & METADATA LOKAL KULINER -->
+    <title>Lumpia Kang Jamal | Pedas, Gurih, Melimpah & Halal</title>
+    <meta name="description" content="Lumpia Basah Khas Cibinong super lezat dengan isian bengkuang manis gurih, tauge segar, telur, dan varian topping melimpah. Pesan online via WhatsApp sekarang!" />
+    <meta name="keywords" content="Lumpia basah, Lumpia basah Cibinong, kuliner pedas, jajanan pasar, cemilan gurih, lumpia basah spesial" />
+    <link rel="canonical" href="https://lumpiabasahkangjamal.com/" />
+
+    <!-- Open Graph Tags (Share Sosial Media) -->
+    <meta property="og:title" content="Lumpia Kang Jamal | Sensasi Gurih Pedas Nagih!" />
+    <meta property="og:description" content="Cemilan khas dengan isian bengkuang bumbu ebi, telur, dan topping favoritmu. Dibuat fresh setiap hari!" />
+    <meta property="og:type" content="website" />
+    <meta property="og:image" content="https://images.unsplash.com/photo-1541696432-82c6da8ce7bf?auto=format&fit=crop&w=1200&q=80" />
+
+    <!-- Schema.org JSON-LD (Search Engine Optimization) -->
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "FoodEstablishment",
+        "name": "Lumpia Kang Jamal",
+        "image": "https://images.unsplash.com/photo-1541696432-82c6da8ce7bf?auto=format&fit=crop&w=1200&q=80",
+        "priceRange": "Rp 12.000 - Rp 25.000",
+        "servesCuisine": "Indonesian Street Food",
+        "telephone": "+6281234567890",
+        "address": {
+          "@type": "PostalAddress",
+          "streetAddress": "Jl. Kuliner No. 12, Pusat Jajanan",
+          "addressLocality": "Cibinong",
+          "addressRegion": "Jawa Barat",
+          "postalCode": "40111",
+          "addressCountry": "ID"
+        }
+      }
+    </script>
+
+    <!-- Google Fonts & Icons -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800;900&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
+
+    <!-- Favicon SVG -->
+    <link
+      rel="icon"
+      type="image/svg+xml"
+      href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24'><rect width='24' height='24' rx='6' fill='%23ea580c'/><path d='M12 3v18M3 12h18' stroke='%23ffffff' stroke-width='2' stroke-linecap='round'/></svg>"
+    />
+
+    <!-- Tailwind CSS -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+      tailwind.config = {
+        theme: {
+          extend: {
+            fontFamily: {
+              sans: ["'Plus Jakarta Sans'", "sans-serif"],
+            },
+            colors: {
+              brand: {
+                50: "#fff7ed",
+                100: "#ffedd5",
+                200: "#fed7aa",
+                500: "#f97316",
+                600: "#ea580c",
+                700: "#c2410c",
+                800: "#9a3412",
+                dark: "#1c1917",
+              },
+            },
+          },
+        },
+      };
+    </script>
+    <style>
+      .text-gradient {
+        background: linear-gradient(135deg, #ea580c 0%, #dc2626 100%);
+        -webkit-background-clip: text;
+        background-clip: text;
+        -webkit-text-fill-color: transparent;
+      }
+    </style>
+  </head>
+
+  <body class="bg-stone-50 text-stone-800 font-sans antialiased selection:bg-brand-500 selection:text-white overflow-x-hidden">
+    <!-- TOP BAR INFO -->
+    <div class="bg-brand-600 text-white text-xs py-2 px-4 text-center font-medium tracking-wide">🔥 <span class="font-bold">Pilihan Favorit:</span> 5 Porsi Lumpia Basah untuk Dinikmati Bareng! Order Via WhatsApp Sekarang!</div>
+
+    <!-- NAVBAR (RESPONSIVE HP & DESKTOP) -->
+    <nav class="sticky top-0 z-50 bg-white/90 backdrop-blur-md border-b border-stone-200 shadow-sm">
+      <div class="max-w-6xl mx-auto px-4 sm:px-6 py-3 md:py-4 flex justify-between items-center">
+        <!-- Tombol Developer (Disembunyikan di HP, tampil di layar Tablet/Laptop ke atas) -->
+        <a href="developer.html" class="hidden sm:flex text-xs font-bold bg-white text-brand-600 border border-brand-500 hover:bg-brand-50 px-3.5 py-1.5 rounded-full transition-all items-center gap-1.5 shadow-sm group">
+          <svg class="w-3.5 h-3.5 text-brand-600 group-hover:scale-110 transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 20l4-16m4 4l4 4-4 4M6 16l-4-4 4-4"></path>
+          </svg>
+          Hubungi Developer
+        </a>
+
+        <!-- Logo (Menyesuaikan ukuran di HP & Desktop) -->
+        <a href="#" class="flex items-center gap-2">
+          <div class="w-8 h-8 md:w-10 md:h-10 bg-brand-600 rounded-xl flex items-center justify-center text-white font-black text-lg md:text-xl shadow-md">🥙</div>
+          <span class="font-black text-lg md:text-xl tracking-tight text-stone-900">Lumpia<span class="text-brand-600">KangJamal</span></span>
+        </a>
+
+        <!-- Menu Desktop -->
+        <div class="hidden md:flex items-center gap-8 font-semibold text-sm text-stone-600">
+          <a href="#menu" class="hover:text-brand-600 transition-colors">Varian Menu</a>
+          <a href="#keunggulan" class="hover:text-brand-600 transition-colors">Keunggulan</a>
+          <a href="#testimoni" class="hover:text-brand-600 transition-colors">Testimoni</a>
+          <a href="#faq" class="hover:text-brand-600 transition-colors">FAQ</a>
+        </div>
+
+        <!-- CTA Button Pesan WA -->
+        <a
+          href="https://wa.me/6281234567890?text=Halo%20Kang%20Jamal,%20saya%20mau%20pesan%20Lumpia%20Basah"
+          target="_blank"
+          class="bg-emerald-600 hover:bg-emerald-700 text-white px-3.5 py-1.5 md:px-5 md:py-2.5 rounded-full font-bold text-xs md:text-sm flex items-center gap-1.5 md:gap-2 transition-all shadow-md"
+        >
+          <i class="fab fa-whatsapp text-base md:text-lg"></i>
+          Pesan WA
+        </a>
+      </div>
+    </nav>
+
+    <!-- HERO SECTION -->
+    <section class="relative py-12 md:py-16 overflow-hidden bg-gradient-to-b from-brand-50/50 to-stone-50">
+      <div class="max-w-6xl mx-auto px-6">
+        <!-- GRID 2 KOLOM (TEKS & GAMBAR SEIMBANG) -->
+        <div class="grid md:grid-cols-2 gap-12 items-center">
+          <!-- Kolom Kiri: Teks Hero -->
+          <div>
+            <div class="flex flex-wrap gap-2 mb-4">
+              <span class="px-3 py-1 rounded-full bg-brand-100 text-brand-700 font-bold text-xs border border-brand-200">✓ 100% Halal</span>
+              <span class="px-3 py-1 rounded-full bg-red-100 text-red-700 font-bold text-xs border border-red-200">🌶️ Level Pedas 1 - 3</span>
+              <span class="px-3 py-1 rounded-full bg-emerald-100 text-emerald-700 font-bold text-xs border border-emerald-200">✓ Bumbu Asli Khas</span>
+            </div>
+
+            <h1 class="text-4xl md:text-6xl font-black text-stone-900 tracking-tight leading-[1.1] mb-6">
+              Sensasi Gurih & Pedas <br />
+              <span class="text-gradient">Lumpia Basah Khas!</span>
+            </h1>
+
+            <p class="text-stone-600 text-lg mb-8 leading-relaxed">Dipadu dengan perpaduan padatnya bengkuang gurih bumbu ebi manis, tauge segar, telur orak-arik, dan kulit lumpia lembut buatan tangan segar setiap hari!</p>
+
+            <!-- Tombol CTA Hero -->
+            <div class="flex flex-col sm:flex-row gap-4">
+              <a
+                href="https://wa.me/6281234567890?text=Halo%20Kang%20Jamal,%20saya%20mau%20pesan%20Lumpia%20Basah%20Spesial"
+                target="_blank"
+                class="bg-brand-600 hover:bg-brand-700 text-white text-center font-bold px-8 py-4 rounded-full shadow-lg shadow-brand-600/30 text-lg transition-all hover:-translate-y-1 flex items-center justify-center gap-3"
+              >
+                <i class="fab fa-whatsapp text-2xl"></i>
+                Pesan Sekarang
+              </a>
+              <a href="#menu" class="bg-white hover:bg-stone-100 text-stone-800 border border-stone-300 text-center font-bold px-8 py-4 rounded-full text-lg transition-all"> Lihat Menu & Harga </a>
+            </div>
+          </div>
+
+          <!-- Kolom Kanan: Gambar Hero -->
+          <div class="relative">
+            <div class="w-full h-[380px] md:h-[420px] rounded-[2.5rem] overflow-hidden shadow-2xl border-4 border-white relative">
+              <img src="https://images.unsplash.com/photo-1541696432-82c6da8ce7bf?auto=format&fit=crop&w=800&q=80" alt="Lumpia Basah Lezat" class="w-full h-full object-cover" />
+              <div class="absolute bottom-4 left-4 right-4 bg-white/90 backdrop-blur-md p-4 rounded-2xl shadow-lg border border-stone-100 flex items-center justify-between">
+                <div>
+                  <p class="text-xs text-stone-500 font-bold uppercase">Favorit Pelanggan</p>
+                  <p class="font-black text-stone-900 text-base">Lumpia Basah Spesial Ayam Telur</p>
+                </div>
+                <span class="font-black text-brand-600 text-lg">Rp 15.000</span>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- STRIP BANNER FOOD DELIVERY (HORIZONTAL DI BAWAH GRID) -->
+        <div class="mt-12 pt-6 border-t border-stone-200/80">
+          <div class="flex flex-col md:flex-row items-center justify-between gap-4 bg-white/70 backdrop-blur-sm p-4 rounded-2xl border border-stone-200/80 shadow-xs">
+            <div class="flex flex-wrap items-center gap-3">
+              <span class="text-xs font-bold text-stone-400 uppercase tracking-wider">Juga Tersedia Di:</span>
+              <div class="flex items-center gap-2">
+                <span class="inline-flex items-center gap-1.5 px-3 py-1 rounded-xl bg-orange-50 border border-orange-200/60 text-orange-700 text-xs font-bold"> <i class="fas fa-bag-shopping text-orange-500"></i> ShopeeFood </span>
+                <span class="inline-flex items-center gap-1.5 px-3 py-1 rounded-xl bg-red-50 border border-red-200/60 text-red-700 text-xs font-bold"> <i class="fas fa-utensils text-red-500"></i> GoFood </span>
+                <span class="inline-flex items-center gap-1.5 px-3 py-1 rounded-xl bg-emerald-50 border border-emerald-200/60 text-emerald-700 text-xs font-bold"> <i class="fas fa-motorcycle text-emerald-500"></i> GrabFood </span>
+              </div>
+            </div>
+
+            <p class="text-xs text-stone-500 flex items-center gap-1">
+              🔍 <span>Ketik di aplikasi: <strong>Lumpia Basah SMP Negeri 01 Cibinong</strong></span>
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- STATISTIK / RINGKASAN -->
+    <section class="py-10 bg-white border-y border-stone-200">
+      <div class="max-w-6xl mx-auto px-6 grid grid-cols-2 md:grid-cols-4 gap-6 text-center">
+        <div>
+          <div class="text-3xl font-black text-brand-600">1.000+</div>
+          <div class="text-xs text-stone-500 font-bold uppercase tracking-wider mt-1">Porsi Terjual</div>
+        </div>
+        <div>
+          <div class="text-3xl font-black text-brand-600">4.9 ⭐</div>
+          <div class="text-xs text-stone-500 font-bold uppercase tracking-wider mt-1">Rating Kepuasan</div>
+        </div>
+        <div>
+          <div class="text-3xl font-black text-brand-600">100%</div>
+          <div class="text-xs text-stone-500 font-bold uppercase tracking-wider mt-1">Bumbu Alami & Fresh</div>
+        </div>
+        <div>
+          <div class="text-3xl font-black text-brand-600">1 - 3</div>
+          <div class="text-xs text-stone-500 font-bold uppercase tracking-wider mt-1">Level Pedas Sesuai Selera</div>
+        </div>
+      </div>
+    </section>
+
+    <!-- MENU SECTION -->
+    <section id="menu" class="scroll-mt-24 py-20 max-w-6xl mx-auto px-6">
+      <div class="text-center mb-14">
+        <span class="text-brand-600 font-bold text-sm tracking-widest uppercase mb-2 block">Pilihan Lezat</span>
+        <h2 class="text-3xl md:text-5xl font-black text-stone-900">Varian Menu Lumpia Basah</h2>
+      </div>
+
+      <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+        <!-- Card 1 -->
+        <div class="bg-white rounded-3xl p-6 border border-stone-200 shadow-sm hover:shadow-xl hover:-translate-y-1 transition-all flex flex-col justify-between">
+          <div>
+            <div class="h-48 rounded-2xl bg-stone-100 overflow-hidden mb-5">
+              <img src="https://images.unsplash.com/photo-1563379091339-03b21ab4a4f8?auto=format&fit=crop&w=600&q=80" alt="Lumpia Basah Original" class="w-full h-full object-cover" />
+            </div>
+            <div class="flex justify-between items-center mb-2">
+              <h3 class="font-bold text-xl text-stone-900">Lumpia Basah Original</h3>
+              <span class="bg-brand-50 text-brand-700 font-extrabold text-sm px-3 py-1 rounded-full">Rp 12.000</span>
+            </div>
+            <p class="text-stone-600 text-sm mb-6 leading-relaxed">Isian bengkuang bumbu ebi manis gurih, tauge segar, telur orak-arik & kulit lumpia lembut.</p>
+          </div>
+          <a href="https://wa.me/6281234567890?text=Pesan%20Lumpia%20Basah%20Original" target="_blank" class="w-full bg-stone-900 hover:bg-brand-600 text-white font-bold py-3 rounded-xl text-center transition-colors block">
+            Pesan Varian Ini
+          </a>
+        </div>
+
+        <!-- Card 2 (Best Seller) -->
+        <div class="bg-white rounded-3xl p-6 border-2 border-brand-500 shadow-lg relative hover:-translate-y-1 transition-all flex flex-col justify-between">
+          <div class="absolute -top-4 right-6 bg-brand-600 text-white text-xs font-black uppercase px-4 py-1.5 rounded-full shadow-md">🔥 Best Seller</div>
+          <div>
+            <div class="h-48 rounded-2xl bg-stone-100 overflow-hidden mb-5">
+              <img src="https://images.unsplash.com/photo-1541696432-82c6da8ce7bf?auto=format&fit=crop&w=600&q=80" alt="Lumpia Basah Spesial Ayam" class="w-full h-full object-cover" />
+            </div>
+            <div class="flex justify-between items-center mb-2">
+              <h3 class="font-bold text-xl text-stone-900">Spesialis Ayam & Sosis</h3>
+              <span class="bg-brand-50 text-brand-700 font-extrabold text-sm px-3 py-1 rounded-full">Rp 17.000</span>
+            </div>
+            <p class="text-stone-600 text-sm mb-6 leading-relaxed">Isian komplit Original + Topping suwiran ayam gurih dan irisan sosis sapi melimpah.</p>
+          </div>
+          <a href="https://wa.me/6281234567890?text=Pesan%20Lumpia%20Basah%20Spesial%20Ayam" target="_blank" class="w-full bg-brand-600 hover:bg-brand-700 text-white font-bold py-3 rounded-xl text-center transition-colors block">
+            Pesan Varian Ini
+          </a>
+        </div>
+
+        <!-- Card 3 -->
+        <div class="bg-white rounded-3xl p-6 border border-stone-200 shadow-sm hover:shadow-xl hover:-translate-y-1 transition-all flex flex-col justify-between">
+          <div>
+            <div class="h-48 rounded-2xl bg-stone-100 overflow-hidden mb-5">
+              <img src="https://images.unsplash.com/photo-1512621776951-a57141f2eefd?auto=format&fit=crop&w=600&q=80" alt="Lumpia Basah Jumbo Pedas" class="w-full h-full object-cover" />
+            </div>
+            <div class="flex justify-between items-center mb-2">
+              <h3 class="font-bold text-xl text-stone-900">Jumbo Pedas Meledak</h3>
+              <span class="bg-brand-50 text-brand-700 font-extrabold text-sm px-3 py-1 rounded-full">Rp 20.000</span>
+            </div>
+            <p class="text-stone-600 text-sm mb-6 leading-relaxed">Porsi jumbo 2x lipat, double telur, ekstra topping ayam, sosis, dan cabe rajang segar pilihan.</p>
+          </div>
+          <a href="https://wa.me/6281234567890?text=Pesan%20Lumpia%20Basah%20Jumbo" target="_blank" class="w-full bg-stone-900 hover:bg-brand-600 text-white font-bold py-3 rounded-xl text-center transition-colors block">
+            Pesan Varian Ini
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <!-- MENGAPA MEMILIH KAMI -->
+    <section id="keunggulan" class="scroll-mt-24 py-20 bg-stone-900 text-white">
+      <div class="max-w-6xl mx-auto px-6">
+        <div class="text-center mb-16">
+          <span class="text-brand-500 font-bold text-sm tracking-widest uppercase block mb-2">Rahasia Kualitas</span>
+          <h2 class="text-3xl md:text-5xl font-black">Mengapa Lumpia Basah Kami Selalu Dicari?</h2>
+        </div>
+
+        <div class="grid md:grid-cols-3 gap-8">
+          <div class="p-8 rounded-3xl bg-stone-800/60 border border-stone-700">
+            <div class="w-14 h-14 bg-brand-600 rounded-2xl flex items-center justify-center text-2xl mb-6">🌿</div>
+            <h3 class="text-xl font-bold mb-3">Bahan Segar Setiap Hari</h3>
+            <p class="text-stone-400 text-sm leading-relaxed">Bengkuang ditumis presisi dengan racikan gula merah & ebi asli tanpa bahan pengawet sintesis.</p>
+          </div>
+
+          <div class="p-8 rounded-3xl bg-stone-800/60 border border-stone-700">
+            <div class="w-14 h-14 bg-brand-600 rounded-2xl flex items-center justify-center text-2xl mb-6">🍳</div>
+            <h3 class="text-xl font-bold mb-3">Porsi Dibuat Melimpah</h3>
+            <p class="text-stone-400 text-sm leading-relaxed">Tidak pelit isian! Dijamin kenyang dan puas dengan kombinasi tekstur renyah dan lembut di mulut.</p>
+          </div>
+
+          <div class="p-8 rounded-3xl bg-stone-800/60 border border-stone-700">
+            <div class="w-14 h-14 bg-brand-600 rounded-2xl flex items-center justify-center text-2xl mb-6">⚡</div>
+            <h3 class="text-xl font-bold mb-3">Dimasak Ditempat (Fresh)</h3>
+            <p class="text-stone-400 text-sm leading-relaxed">Pesanan baru dimasak saat Anda memesan, sehingga disajikan hangat-hangat mendidih!</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- TESTIMONI -->
+    <section id="testimoni" class="scroll-mt-24 py-20 max-w-6xl mx-auto px-6">
+      <div class="text-center mb-16">
+        <span class="text-brand-600 font-bold text-sm tracking-widest uppercase block mb-2">Ulasan Pembeli</span>
+        <h2 class="text-3xl md:text-5xl font-black text-stone-900">Kata Mereka Yang Sudah Coba</h2>
+      </div>
+
+      <div class="grid md:grid-cols-3 gap-6">
+        <div class="bg-white p-6 rounded-3xl border border-stone-200 shadow-sm">
+          <div class="text-amber-400 mb-3">⭐⭐⭐⭐⭐</div>
+          <p class="text-stone-600 text-sm mb-6 leading-relaxed">"Bumbu bengkuangnya berasa banget ebi dan karamel manisnya! Pedas level 3 aja udah bikin nagih. Fix bakal langganan terus."</p>
+          <p class="font-bold text-stone-900 text-sm">— Rina S., Cibinong</p>
+        </div>
+
+        <div class="bg-white p-6 rounded-3xl border border-stone-200 shadow-sm">
+          <div class="text-amber-400 mb-3">⭐⭐⭐⭐⭐</div>
+          <p class="text-stone-600 text-sm mb-6 leading-relaxed">"Porsinya mantap banget! Pesan varian Spesial Ayam Sosis, toppingnya melimpah gak pelit. Masih hangat pas sampai rumah."</p>
+          <p class="font-bold text-stone-900 text-sm">— Budi Hartono, Cibinong</p>
+        </div>
+
+        <div class="bg-white p-6 rounded-3xl border border-stone-200 shadow-sm">
+          <div class="text-amber-400 mb-3">⭐⭐⭐⭐⭐</div>
+          <p class="text-stone-600 text-sm mb-6 leading-relaxed">"Sering order buat acara kantor. Respon pesanan via WA cepat banget dan proses masaknya bersih & higienis."</p>
+          <p class="font-bold text-stone-900 text-sm">— Maya Devina, Event Organizer</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- FAQ SECTION -->
+    <section id="faq" class="scroll-mt-24 py-20 bg-stone-100">
+      <div class="max-w-4xl mx-auto px-6">
+        <div class="text-center mb-14">
+          <h2 class="text-3xl font-black text-stone-900">Pertanyaan Sering Diajukan (FAQ)</h2>
+        </div>
+
+        <div class="space-y-4">
+          <div class="bg-white p-6 rounded-2xl border border-stone-200">
+            <h3 class="font-bold text-stone-900 text-lg mb-2">Kedai Buka Jam Berapa?</h3>
+            <p class="text-stone-600 text-sm">Kedai kami buka setiap hari mulai pukul 10.00 WIB hingga 21.00 WIB (atau sampai porsi harian habis).</p>
+          </div>
+
+          <div class="bg-white p-6 rounded-2xl border border-stone-200">
+            <h3 class="font-bold text-stone-900 text-lg mb-2">Apakah Bisa Minta Tidak Pedas?</h3>
+            <p class="text-stone-600 text-sm">Tentu saja! Anda bisa menentukan level pedas mulai dari Level 1 (Tidak Pedas), Level 2 (Sedang), hingga Level 3 (Pedas Mantap).</p>
+          </div>
+
+          <div class="bg-white p-6 rounded-2xl border border-stone-200">
+            <h3 class="font-bold text-stone-900 text-lg mb-2">Apakah Menerima Pesanan Catering / Event?</h3>
+            <p class="text-stone-600 text-sm">Ya, kami menerima pemesanan jumlah besar untuk acara ulang tahun, rapat kantor, kumpul bareng teman dan keluarga.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- GOOGLE MAPS & LOKASI -->
+    <section class="py-20 max-w-6xl mx-auto px-6 grid md:grid-cols-2 gap-8 items-start">
+      <!-- Sisi Kiri: Informasi Alamat 2 Outlet -->
+      <div>
+        <span class="text-brand-600 font-bold text-sm uppercase mb-2 block">Lokasi Kedai</span>
+        <h2 class="text-3xl font-black text-stone-900 mb-4">Mampir Langsung ke Outlets Kami</h2>
+
+        <!-- INFO BANNER JARAK ANTAR OUTLET -->
+        <div class="bg-amber-50 border border-amber-200/80 rounded-2xl p-3.5 mb-6 flex items-center gap-3 text-amber-900 text-xs font-medium shadow-sm">
+          <span class="text-xl">🚶‍♂️</span>
+          <div>
+            <strong class="font-bold text-amber-950">Berdekatan di Jalur yang Sama!</strong>
+            <p class="text-amber-800/90 mt-0.5">Jarak antar Outlet 1 dan Outlet 2 hanya <strong>~300 meter</strong> (sekitar 5 menit jalan kaki / 1 menit berkendara).</p>
+          </div>
+        </div>
+
+        <div class="space-y-6">
+          <!-- Outlet 1 -->
+          <div class="bg-stone-50 p-4 rounded-2xl border border-stone-200 shadow-sm">
+            <span class="bg-brand-500 text-white text-[10px] font-bold px-2.5 py-1 rounded-full uppercase tracking-wider mb-2 inline-block">Outlet 1 (Pangkalan Gerobak)</span>
+            <p class="text-stone-600 text-sm leading-relaxed mb-2">📍 <strong>Alamat:</strong> Jl. Raya Mayor Oking Jaya Atmaja (Area Pangkalan), Cibinong, Jawa Barat.</p>
+            <p class="text-stone-500 text-xs mb-3">⏰ <strong>Operasional:</strong> Senin - Minggu (10.00 - 21.00 WIB)</p>
+            <a href="https://maps.google.com" target="_blank" class="inline-flex items-center gap-1.5 text-xs font-bold text-brand-600 hover:underline"> <i class="fas fa-location-dot"></i> Buka Peta Outlet 1 </a>
+          </div>
+
+          <!-- Outlet 2 -->
+          <div class="bg-stone-50 p-4 rounded-2xl border border-stone-200 shadow-sm">
+            <span class="bg-stone-800 text-white text-[10px] font-bold px-2.5 py-1 rounded-full uppercase tracking-wider mb-2 inline-block">Outlet 2 (Kedai / Cabang Baru)</span>
+            <p class="text-stone-600 text-sm leading-relaxed mb-2">📍 <strong>Alamat:</strong> Jl. Raya Mayor Oking Jaya Atmaja (Dekat Sidewalk), Cibinong, Jawa Barat.</p>
+            <p class="text-stone-500 text-xs mb-3">⏰ <strong>Operasional:</strong> Senin - Minggu (10.00 - 21.00 WIB)</p>
+            <a href="https://maps.google.com" target="_blank" class="inline-flex items-center gap-1.5 text-xs font-bold text-stone-800 hover:underline"> <i class="fas fa-location-dot"></i> Buka Peta Outlet 2 </a>
+          </div>
+        </div>
+      </div>
+
+      <!-- Sisi Kanan: 2 Kotak Peta Google Maps Terpisah -->
+      <div class="space-y-6">
+        <!-- Peta Outlet 1 -->
+        <div class="rounded-3xl overflow-hidden border border-stone-300 shadow-md">
+          <div class="px-4 py-2 bg-brand-500 text-white text-xs font-bold flex items-center gap-2"><span class="w-2 h-2 rounded-full bg-white animate-pulse"></span> Peta Lokasi Outlet 1 (Gerobak)</div>
+          <div class="h-56 w-full">
+            <iframe
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d126748.56347862248!2d107.57311687023157!3d-6.903444341687889!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e68e6398252477f%3A0x146aed93076e3f31!2sCibinong%2C%20Cibinong%20City%2C%20West%20Java!5e0!3m2!1sen!2sid!4v1700000000000!5m2!1sen!2sid"
+              width="100%"
+              height="100%"
+              style="border: 0"
+              allowfullscreen=""
+              loading="lazy"
+            ></iframe>
+          </div>
+        </div>
+
+        <!-- Peta Outlet 2 -->
+        <div class="rounded-3xl overflow-hidden border border-stone-300 shadow-md">
+          <div class="px-4 py-2 bg-stone-900 text-white text-xs font-bold flex items-center gap-2"><span class="w-2 h-2 rounded-full bg-stone-400"></span> Peta Lokasi Outlet 2 (Kedai Baru)</div>
+          <div class="h-56 w-full">
+            <iframe
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d126748.56347862248!2d107.57311687023157!3d-6.903444341687889!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e68e6398252477f%3A0x146aed93076e3f31!2sCibinong%2C%20Cibinong%20City%2C%20West%20Java!5e0!3m2!1sen!2sid!4v1700000000000!5m2!1sen!2sid"
+              width="100%"
+              height="100%"
+              style="border: 0"
+              allowfullscreen=""
+              loading="lazy"
+            ></iframe>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- FOOTER TERINTEGRASI -->
+    <footer id="footer" class="relative bg-stone-900 text-stone-400 pt-12 pb-16 border-t border-stone-800">
+      <div class="max-w-6xl mx-auto px-6 flex flex-col md:flex-row justify-between items-center gap-6">
+        <div class="text-center md:text-left">
+          <span class="font-black text-xl text-white tracking-tight">Lumpia<span class="text-brand-500">KangJamal</span></span>
+          <p class="text-xs text-stone-500 mt-1">Cemilan Berkualitas & Higienis.</p>
+        </div>
+
+        <!-- Tombol Promosi Developer yang Menunjuk ke developer.html -->
+        <a href="developer.html" class="w-fit text-xs font-bold bg-stone-800 hover:bg-stone-700 border border-stone-700 text-stone-300 px-4 py-2.5 rounded-lg transition-all flex items-center gap-2 group shadow-md">
+          <svg class="w-4 h-4 text-brand-500 group-hover:scale-110 transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 20l4-16m4 4l4 4-4 4M6 16l-4-4 4-4"></path>
+          </svg>
+          Website by MubaDev (Mohamad Almubarok)
+        </a>
+      </div>
+
+      <!-- Credit & Hak Cipta Tunggal -->
+      <div class="max-w-6xl mx-auto px-6 mt-8 pt-6 border-t border-stone-800 text-center text-xs text-stone-500 flex flex-col sm:flex-row justify-between items-center gap-2">
+        <p>© 2026 Lumpia Kang Jamal. All Rights Reserved.</p>
+        <p>Ingin punya website UMKM seperti ini? <a href="developer.html" class="text-brand-500 font-semibold hover:underline">Lihat Layanan IT & MubaDev</a></p>
+      </div>
+    </footer>
+
+    <!-- Floating Watermark Badge Terintegrasi (Dengan ID untuk Auto-Hide) -->
+    <div id="mubadev-badge" class="fixed bottom-4 left-4 z-50 transition-all duration-300">
+      <a href="developer.html" class="flex items-center gap-2 bg-stone-900/90 hover:bg-stone-900 text-white text-xs px-3.5 py-2 rounded-full shadow-lg backdrop-blur-sm border border-stone-700 transition-all hover:scale-105">
+        <span class="w-2 h-2 rounded-full bg-emerald-400 animate-pulse"></span>
+        <span>Website oleh <strong class="text-brand-500">MubaDev</strong></span>
+      </a>
+    </div>
+
+    <!-- FLOATING WHATSAPP BUTTON (Tooltip diposisikan ke atas agar aman dari teks footer) -->
+    <a
+      href="https://wa.me/6281234567890?text=Halo%20saya%20tertarik%20membeli%20Lumpia%20Basah"
+      target="_blank"
+      class="fixed bottom-6 right-6 bg-emerald-500 hover:bg-emerald-600 text-white w-14 h-14 rounded-full flex items-center justify-center text-3xl shadow-2xl z-50 transition-all hover:scale-110 group"
+      title="Pesan via WhatsApp"
+    >
+      <i class="fab fa-whatsapp"></i>
+      <span class="absolute bottom-full mb-3 right-0 bg-stone-900 text-white text-xs font-bold px-3 py-1.5 rounded-xl whitespace-nowrap opacity-0 group-hover:opacity-100 transition-opacity shadow-lg pointer-events-none">
+        Pesan Lumpia Sekarang! 🥙
+      </span>
+    </a>
+
+    <!-- Script JavaScript untuk Auto-Hide Watermark MubaDev saat Menyentuh Footer -->
+    <script>
+      document.addEventListener("DOMContentLoaded", function () {
+        const footer = document.getElementById("footer");
+        const badge = document.getElementById("mubadev-badge");
+
+        if (footer && badge) {
+          const observer = new IntersectionObserver(
+            ([entry]) => {
+              if (entry.isIntersecting) {
+                // Sembunyikan watermark saat area footer mulai terlihat
+                badge.style.opacity = "0";
+                badge.style.pointerEvents = "none";
+                badge.style.transform = "translateY(20px)";
+              } else {
+                // Tampilkan kembali watermark saat berada di atas footer
+                badge.style.opacity = "1";
+                badge.style.pointerEvents = "auto";
+                badge.style.transform = "translateY(0)";
+              }
+            },
+            { threshold: 0.05 },
+          );
+
+          observer.observe(footer);
+        }
+      });
+    </script>
+  </body>
+</html>
